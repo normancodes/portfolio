@@ -1,0 +1,249 @@
+body{
+font-family: 'Noto Serif', serif;
+margin: 0;
+text-align: center;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Noto Serif', serif;
+  font-size: 5.625rem;
+  color: #000;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+	background-color: #537ec5;
+	width: 50px;
+}
+
+span{
+  font-family: 'Rye', cursive;
+	font-size: 4rem;
+  color: #537ec5;
+}
+
+img {
+    max-width:60%;
+    height:auto;
+}
+#module {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+#module #collapseExample.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+#module #collapseExample.collapsing {
+  height: 3rem;
+}
+
+#module a.collapsed::after {
+  content: '+ Show More';
+}
+
+#module a:not(.collapsed)::after {
+  content: '- Show Less';
+}
+/* Navigation Bar */
+
+.navbar-brand{
+text-transform: uppercase;
+font-family: 'Noto Serif', serif;
+}
+
+.nav-item{
+font-family: 'Noto Serif', serif;
+}
+
+.nav-item:hover{
+background-color: #fff;
+}
+
+nav .navbar-nav li a{
+  color: #fff !important;
+  }
+
+nav .navbar-nav li a:hover{
+  color: #537ec5 !important;
+  }
+
+/* About Section */
+
+.about {
+	font-family: 'Noto Serif', serif;
+	text-align: center;
+	width: 56%;
+	position: relative;
+	margin: auto;
+	display: block;
+	padding-top: 65px;
+	padding-bottom: 40px;
+}
+
+.gray{
+		background-color: #FCFCFC;
+}
+
+
+/* Projects */
+
+.projects{
+		font-family: 'Noto Serif', serif;
+		text-align: center;
+		width: 80%;
+		position: relative;
+		margin: auto;
+		display: block;
+		padding-top: 60px;
+		padding-bottom: 40px;
+}
+
+.skills-column{
+  padding: 3% 5%;
+}
+
+.card-header {
+  	background-color: #537ec5 !important;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.card-img-top{
+  padding: 7% 0;
+  max-width: 100%;
+}
+
+.card-text{
+  text-align: left;
+}
+
+.btn{
+  width: 150px;
+  margin: 5% 3% 5% 3%;
+  background-color: #537ec5 !important;
+}
+
+.code-button{
+
+}
+
+.live-button{
+
+}
+
+
+/* skills */
+
+.skills{
+		font-family: 'Noto Serif', serif;
+		text-align: center;
+		width: 56%;
+		position: relative;
+		margin: auto;
+		display: block;
+		padding-top: 60px;
+		padding-bottom: 40px;
+}
+
+.edpics{
+    padding: 10px;
+    border: 5px;
+    border-radius: 50%;
+
+}
+
+.edpics:hover{
+    background-color: #537EC6;
+}
+
+
+/* Contact Section */
+
+.contact{
+		font-family: 'Noto Serif', serif;
+		text-align: center;
+		width: 56%;
+		position: relative;
+		margin: auto;
+		display: block;
+		padding-top: 60px;
+		padding-bottom: 40px;
+}
+
+.contact a {
+	color: #537ec5;
+  font-weight: normal;
+  font-family: 'Noto Serif', serif;
+
+}
+
+.contact a:hover {
+	color: #537ec5;
+  font-weight: normal;
+  font-family: 'Noto Serif', serif;
+
+}
+
+
+/* Footer Section */
+
+.footer{
+  text-align: center;
+  opacity: 0.8;
+}
+
+.foot-icon{
+
+    margin: 20px 10px;
+}
+
+
+/* Credits Page */
+
+.credits{
+		font-family: 'Noto Serif', serif;
+		text-align: center;
+		width: 56%;
+		position: relative;
+		margin: auto;
+		display: block;
+		padding-top: 60px;
+		padding-bottom: 40px;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1020px) {
+    h1{font-size: 3.8vw;}
+    p{font-size: 3.5vw;}
+    a{font-size: 3.5vw;}
+    li{font-size: 3.5vw;}
+    .cover{display: none;}
+    .Norman{width: 40%;}
+    .about{width: 90%;}
+    .projects{width: 90%;}
+    .card{margin-bottom: 20%;}
+    .card-header{font-size: 3.5vw;}
+    .skills{width: 90%;}
+    .edpics{width:40%;}
+    .feature-box{margin-bottom: 20%;}
+    .feature-title{font-size: 3vh;}
+    .contact{width: 90%;}
+    .credits {width: 90%;}
+    .footer{font-size: 3.5vw;}
+    .cover{display: none;}
+}
+
+@media (min-width: 1020px) {
+  p{font-size: 1vw;}
+}
